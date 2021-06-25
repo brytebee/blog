@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'posts/index'
+  get 'posts/new'
+  get 'posts/view'
+  get 'posts/delete'
   get 'archive/index'
   get 'archive/past'
   get 'archive/present'
